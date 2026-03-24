@@ -536,8 +536,11 @@ impl Codegen {
             Expr::CharLit(val) => {
                 self.asm.emit_i32("push", *val);
             }
-            Expr::StrLit(_) => {
+            Expr::StrLit(s) => {
                 self.asm.emit_i32("push", 0);
+                for ch in s.chars() {
+                    self.asm.emit_i32("push", ch as i32);
+                }
             }
             Expr::Var(name) => {
                 if let Some(lv) = locals.get(name) {
