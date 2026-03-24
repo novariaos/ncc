@@ -1,6 +1,6 @@
 # ncc
 
-Компилятор C для NVM на [NovariaOS](novariaos-src/).
+Компилятор C для NVM на [NovariaOS]([novariaos-src/](https://github.com/novariaos/novariaos-src/)).
 
 ## Обзор
 
