@@ -1,7 +1,7 @@
 #ifndef _NVM_STDIO_H
 #define _NVM_STDIO_H
 
-#include "nvm_intrinsics.h"
+#include "nvm.h"
 
 static int putchar(int ch) {
     __nvm_write(__nvm_tty_fd(), ch);
