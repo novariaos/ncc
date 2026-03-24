@@ -1,6 +1,6 @@
 # ncc
 
-C compiler targeting the NVM bytecode for [NovariaOS](https://github/novariaos/novariaos-src/).
+C compiler targeting the NVM bytecode for [NovariaOS](https://github.com/novariaos/novariaos-src/).
 
 ## Overview
 
